@@ -161,7 +161,7 @@ form > input:focus,textarea:focus {
 textarea {
     min-height: 1rem;;
 }
-input[type="submit"] {
+button[type="submit"] {
     border: none;
     cursor: pointer;
     background: var(--other-txt-color);
@@ -169,7 +169,7 @@ input[type="submit"] {
     border-radius: 1rem;
     padding-block: .5rem;
 }
-input[type="submit"]:hover {
+button[type="submit"]:hover {
     background: var(--theme-txt-color);
 }
 .contact, .socials {
