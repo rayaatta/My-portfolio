@@ -148,13 +148,13 @@ form {
     gap: .7rem;
     margin-bottom: 1rem;
 }
-form > input:not(input[type="submit"]),textarea {
+form  input:not(button[type="submit"]),textarea {
     border: none;
     border-block-end: 2px solid var(--theme-txt-color);
     border-radius: .5rem;
     padding: 1rem;
 }
-form > input:focus,textarea:focus {   
+form input:focus,textarea:focus {   
     outline: 3px solid var(--other-txt-color);
     cursor:copy;
 }
