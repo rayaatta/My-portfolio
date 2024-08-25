@@ -145,6 +145,10 @@ article > a {
 .experience p {
     color: #abadae;
 }
+.form {
+    width:100%;
+    display: flex;
+}
 form {
     width: min(90%,37rem);
     display: flex;
