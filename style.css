@@ -108,6 +108,9 @@ img.major {
     width:max(360px, 60%);
     margin-inline: auto;
 }
+.projects-container {
+    overflow:scroll;
+}
 
 .projects-container > article {
     background: var(--card-bg);
@@ -148,6 +151,8 @@ article > a {
 .form {
     width:100%;
     display: flex;
+    flex-direction:column;
+    align-items: center;
 }
 form {
     width: min(90%,37rem);
@@ -235,18 +240,6 @@ footer {
     .meet-me > div {
         grid-column: 1/2;
         grid-row: 1/2;
-    }
-    h1 {
-        font-size: 2.2rem;
-    }
-    h2 {
-        font-size: 1.8rem;
-    }
-    h3 {
-        font-size: 1.5;
-    }
-    p {
-        font-size: 1.1rem;
     }
     .about {
         display: grid;
